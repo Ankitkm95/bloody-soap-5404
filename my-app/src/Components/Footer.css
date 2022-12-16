@@ -1,0 +1,12 @@
+.Footer_Body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 0 px solid red;
+    gap: 25px;
+    margin-left: 10px;
+    margin-top: 75px;
+}
+.Footer_Child{
+    border: 0px solid blue;
+    text-align: left;
+}
