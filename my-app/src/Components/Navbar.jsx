@@ -1,9 +1,13 @@
 import './Navbar.css'
 
+
 const Navbar = () =>{
     return(
         <div className="main">
-            <h1>tripoto</h1>
+            <div className='logo'>
+                <img src='https://i.ibb.co/b6WNg8y/TRAVEL.png' alt='logo' className='logo1'/>
+            </div>
+            
             <div className="sub1">
                 <input placeholder='Search for itineraries, destinations, hotels or activities'></input>
             </div>
