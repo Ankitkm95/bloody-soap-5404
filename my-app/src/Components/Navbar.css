@@ -5,6 +5,8 @@
     justify-content: space-between;
     color: white;
     padding-left: 8px;
+    position: sticky;
+    top: 0px;
 }
 
 .sub1>input{
@@ -19,3 +21,16 @@
     border: 0px solid red;
     justify-content: space-around;
 }
+.logo{
+    border: 0px solid red;
+    width: 11%;
+}
+.logo1{
+    width: 100% ;
+}
+@media screen and (min-width: 651px) and (max-width: 1024px) {
+    .main{
+      
+      flex-wrap: wrap;
+    }
+  }
